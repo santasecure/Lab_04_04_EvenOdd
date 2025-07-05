@@ -3,7 +3,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        int numToExamine = 7;  //
+        // Pseudocode: SET a number → CALCULATE remainder of number divided by 2 → DISPLAY result and whether it's even or odd
+
+        int numToExamine = 7;
         int modResult = numToExamine % 2;
 
         System.out.println("The result of numToExamine % 2 is: " + modResult);
